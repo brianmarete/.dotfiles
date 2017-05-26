@@ -14,6 +14,13 @@ syntax enable
 :imap jk <Esc>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" GENERAL
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" This allows for filetype detection and allows loading of
+" language specific indentation files based on that detection.
+filetype indent on
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACES & TABS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " tabstop is the number of spaces a tab counts for. When Vim
