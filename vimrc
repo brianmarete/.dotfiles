@@ -13,6 +13,9 @@ syntax enable
 " Remap esc to jk to make it easier to switch to normal mode
 :imap jk <Esc>
 
+" A buffer becomes hidden when it is abandoned
+set hid
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " GENERAL
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
